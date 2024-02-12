@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Heading title={"This is a fuckin title"} />
+      <Heading title={"This is a title"} />
       <Section title={"Section's Title"}>
         This is Section
       </Section>
