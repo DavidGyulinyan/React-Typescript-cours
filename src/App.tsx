@@ -11,16 +11,16 @@ function App() {
 
   return (
     <>
-    <Heading title={"This is a fuckin title"}/>
-    <Section title={"Section's Title"}>
-      This is Section
-    </Section>
-    <Counter setCount={setCount}>
-      Count is {count}
-    </Counter>
-    <List items={['Cofee', 'Tacos', 'Code']}
-    render={(item: string) => <span className="gold">{item} </span>}
-    />
+      <Heading title={"This is a fuckin title"} />
+      <Section title={"Section's Title"}>
+        This is Section
+      </Section>
+      <Counter setCount={setCount}>
+        Count is {count}
+      </Counter>
+      <List items={['Cofee', 'Tacos', 'Code']}
+        render={(item: string) => <span className="bold"> {item} </span>}
+      />
     </>
   )
 }

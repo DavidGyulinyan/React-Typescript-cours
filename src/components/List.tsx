@@ -9,8 +9,8 @@ const List = <T,>({ items, render }: ListProps<T>) => {
     return (
         <ul>
             {
-                items.map((item, i) => (
-                    <li key={i}>
+                items.map((item, idx) => (
+                    <li key={idx}>
                         {render(item)}
                     </li>
                 ))
